@@ -219,7 +219,6 @@ function D.handleEvent(ev)
 
         -- Taskbar
         local tbZone, tbId = D.hitTaskbar(mx, my)
-       local tbZone, tbId = D.hitTaskbar(mx, my)
         if tbZone == "menu"  then return "launcher" end
         if tbZone == "power" then return "power" end
         if tbZone == "win"   then D.focus(tbId); return end
