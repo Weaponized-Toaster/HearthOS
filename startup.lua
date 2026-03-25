@@ -35,30 +35,12 @@ end
 -- ── Files to download ─────────────────────────────────────────
 -- { destination path, raw URL }
 local FILES = {
-    {
-        "hearth/theme.lua",
-        "https://raw.githubusercontent.com/YOURNAME/YOURREPO/main/hearth/theme.lua"
-    },
-    {
-        "hearth/desktop.lua",
-        "https://raw.githubusercontent.com/YOURNAME/YOURREPO/main/hearth/desktop.lua"
-    },
-    {
-        "hearth/init.lua",
-        "https://raw.githubusercontent.com/YOURNAME/YOURREPO/main/hearth/init.lua"
-    },
-    {
-        "hearth/apps/files.lua",
-        "https://raw.githubusercontent.com/YOURNAME/YOURREPO/main/hearth/apps/files.lua"
-    },
-    {
-        "hearth/apps/messenger.lua",
-        "https://raw.githubusercontent.com/YOURNAME/YOURREPO/main/hearth/apps/messenger.lua"
-    },
-    {
-        "hearth/apps/notepad.lua",
-        "https://raw.githubusercontent.com/YOURNAME/YOURREPO/main/hearth/apps/notepad.lua"
-    },
+    { "hearth/theme.lua",         "https://raw.githubusercontent.com/Weaponized-Toaster/HearthOS/refs/heads/main/hearth/theme.lua" },
+    { "hearth/desktop.lua",       "https://raw.githubusercontent.com/Weaponized-Toaster/HearthOS/refs/heads/main/hearth/desktop.lua" },
+    { "hearth/init.lua",          "https://raw.githubusercontent.com/Weaponized-Toaster/HearthOS/refs/heads/main/hearth/init.lua" },
+    { "hearth/apps/files.lua",    "https://raw.githubusercontent.com/Weaponized-Toaster/HearthOS/refs/heads/main/hearth/apps/files.lua" },
+    { "hearth/apps/messenger.lua","https://raw.githubusercontent.com/Weaponized-Toaster/HearthOS/refs/heads/main/hearth/apps/messenger.lua" },
+    { "hearth/apps/notepad.lua",  "https://raw.githubusercontent.com/Weaponized-Toaster/HearthOS/refs/heads/main/hearth/apps/notepad.lua" },
 }
 
 -- ── Colors ────────────────────────────────────────────────────
