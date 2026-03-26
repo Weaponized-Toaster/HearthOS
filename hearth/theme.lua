@@ -18,6 +18,7 @@ T.c = {
     tbarAct     = colors.magenta,
     tbarActFg   = colors.white,
     tbarClock   = colors.yellow,
+    tbarMenuBg  = colors.white,
 
     -- Window chrome
     winBg       = colors.black,
