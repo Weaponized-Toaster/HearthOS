@@ -41,7 +41,11 @@ local FILES = {
     { "hearth/apps/files.lua",    "https://raw.githubusercontent.com/Weaponized-Toaster/HearthOS/refs/heads/main/hearth/apps/files.lua" },
     { "hearth/apps/messenger.lua","https://raw.githubusercontent.com/Weaponized-Toaster/HearthOS/refs/heads/main/hearth/apps/messenger.lua" },
     { "hearth/apps/notepad.lua",  "https://raw.githubusercontent.com/Weaponized-Toaster/HearthOS/refs/heads/main/hearth/apps/notepad.lua" },
-}
+    {
+        "hearth/permdata.lua",
+        "https://raw.githubusercontent.com/Weaponized-Toaster/HearthOS/refs/heads/main/hearth/permdata.lua"
+    },
+    }
 
 -- ── Colors ────────────────────────────────────────────────────
 local COL = {
